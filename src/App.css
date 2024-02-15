@@ -1,0 +1,135 @@
+.header input{
+  border: 2px solid rgb(85, 85, 85);
+  padding: 10px;
+  border-radius: 15px;
+  background-color: rgb(154, 154, 154);
+  color: white;
+}
+.header  button{
+  padding: 10px;
+  font-family: 'forte';
+  border-radius: 15px;
+  background-color: rgb(154, 154, 154);
+  color: white;
+  font-size: 15px;
+  margin: 0 10px;
+  transition: .3s;
+}
+.header  button:hover 
+{
+  background-color: rgb(145, 145, 145);
+  color: black;
+}
+.header a{
+  color: black !important;
+  font-size: 30px;
+  color: rgb(70, 70, 70) !important;
+}
+.header{
+  background-color: rgb(186, 186, 186);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  border-bottom: 2px solid rgb(91, 89, 76);
+}
+.boxes Link h5,p{
+  color: black !important;
+  text-decoration-line:none !important ;
+}
+.content{
+  padding: 7% !important;
+  background-color:rgb(186, 186, 186);
+}
+.content p{
+  text-align: justify;
+}
+ul.categories li{
+  list-style-type:none ;
+  border-bottom: 2px solid grey;
+}
+ul.categories{
+  margin: 0;
+  padding: 0;
+
+}
+ul.categories li a{
+  text-decoration-line: none !important;
+  color: black !important;
+  padding: 10px 0;
+  display: block;
+
+
+}
+.content  button{
+  padding: 10px;
+  font-family: 'forte';
+  border-radius: 15px;
+  background-color: rgb(154, 154, 154);
+  color: white;
+  font-size: 15px;
+  margin: 0 10px;
+  transition: .3s
+}
+.content  button:hover 
+{
+  background-color: rgb(145, 145, 145);
+  color: black;
+}
+
+/* =========================================getsingle========================================= */
+.getimg-hover img{
+  transition: .3s;
+  outline: 4px solid transparent;
+  outline-offset: -30px;
+  aspect-ratio: 3/3;
+  mix-blend-mode: color-burn;
+
+}
+.getimg-hover img:hover{
+  transform: scale(.6);
+  outline: 9px double rgb(134, 134, 134);
+  outline-offset: 30px;
+  border-radius: 10px;
+
+}
+.getimg img{
+  height: 400px;
+  width:  400px;
+  object-fit: cover;
+}
+/* ==========================================category========================================= */
+ul.category li{
+  border-bottom: 2px solid transparent !important;
+  border-top: 2px solid transparent !important;
+  padding-bottom: 5px;
+  transition: .3s;
+  font-size: 14px;
+
+
+}
+ul.category li:hover 
+{
+  border-bottom: 2px solid rgb(85, 84, 84)  !important;
+  border-top: 2px solid rgb(85, 84, 84)  !important;
+  font-size: 16px;
+  padding-left: 10px;
+
+}
+/* =====================================getimg================================================= */
+.allprice{
+  font-weight: bolder;
+
+}
+.inputnumber
+{
+  padding: 10px;
+  /* font-family: 'forte'; */
+  border-radius: 15px;
+  background-color: rgb(154, 154, 154);
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  margin: 0 10px;
+  font-weight: bolder;
+}
